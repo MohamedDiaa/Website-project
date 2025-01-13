@@ -146,7 +146,7 @@ img {
     flex-direction: column;
     justify-content:flex-end;
 
-    margin-left: 10px;
+    margin-right: 30px;
 }
 
 .Section3 .Content .Right {
@@ -155,10 +155,17 @@ img {
     flex-direction: column;
     justify-content:flex-end;
 
-    margin-right: 10px;
+    margin-left: 30px;
 }
 
 .Section3 .Content img {
-    max-width: 40%;
+    max-width: 50%;
 }
 
+.Section4 .Background {
+    background-image: url('assets/wirkungsvoller-oxidationsschutz.jpg.pagespeed.ce.DDFD9sV5fw.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
