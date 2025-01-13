@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    object-fit: contain;
+}
+
+
+/* Navigation */
+.Navigation-div {
+    width: 40%; 
+     margin-left: auto;
+    margin-right: 10px; 
+}
+.Navigation-div ul {
+    display: flex;
+    justify-content:space-around;
+}
+
+.Navigation-div a {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 10px;
+
+}
+.Navigation-div a:hover {
+
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+.menuItem {
+    color: white;
+}
+
+.Line {
+    width: 2px;
+    height: 30px;
+    background-color: white;
+}
+.Circle {
+    width: 5px;
+    height: 50px;
+    background-color: white;
+}
+/* Container */
+.Container {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+
+}
+
+.Background {
+    background-image: url('assets/wirkungsvoller-oxidationsschutz.jpg.pagespeed.ce.DDFD9sV5fw.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+
+.Logo {
+    object-fit:cover ;
+}
+
+.Container h1 {
+    color: white;
+    display: block;
+}
+
+.Container p  {
+    color: white;
+    display: block;
+    margin-top: 10px;
+}
+.ContactUsButton {
+    background-color: #235683;
+    color: white;
+    padding: 10px 60px;
+    border-radius: 20px;
+    margin-top: 30px;
+    display: block;
+    width: fit-content;
+}
+.Container li {
+    color: white;
+}
+
