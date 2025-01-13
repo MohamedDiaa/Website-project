@@ -3,6 +3,9 @@
     margin: 0px;
     box-sizing: border-box;
 }
+body {
+    font-family: sans-serif;
+}
 a {
     text-decoration: none;
 }
@@ -162,10 +165,69 @@ img {
     max-width: 50%;
 }
 
-.Section4 .Background {
-    background-image: url('assets/wirkungsvoller-oxidationsschutz.jpg.pagespeed.ce.DDFD9sV5fw.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 100%;
+/* Section 4 */
+
+.Section4 {
     height: 100vh;
 }
+
+.Section4 div {
+    margin-top: 10px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+}
+
+
+/* Section 5 */
+
+.Section5 {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100vh;
+    padding: 0px 100px;
+}
+
+.Section5 .Cell {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.Section5 .Cell:first-child {
+    text-align: left;
+}
+
+.Section5 .Cell:first-child div{ 
+
+    padding-left: 40px;
+}
+
+.Section5 .Cell:hover {
+
+    background-color: #235683;
+    color: white;
+}
+.Section5 .Cell:first-child:hover {
+
+    background-color: white;
+    color: black;
+}
+
+.Section5 .Cell img {
+    height: 100px;
+}
+
+.Section5 .Cell h3 {
+    margin-top: 20px;
+    display: block;
+}
+
+.Section5 .Cell p {
+    margin-top: 10px;
+    display: block;
+} 
