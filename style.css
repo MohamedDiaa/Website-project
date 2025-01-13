@@ -123,7 +123,7 @@ img {
 
 .Section3 {
     background-color: #F2F4F5;
-    height: 100vh;
+    /* height: 100vh; */
 
     display: flex; 
     flex-direction: column;
@@ -145,8 +145,20 @@ img {
     display: flex;
     flex-direction: column;
     justify-content:flex-end;
+
+    margin-left: 10px;
+}
+
+.Section3 .Content .Right {
+
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+
+    margin-right: 10px;
 }
 
 .Section3 .Content img {
     max-width: 40%;
 }
+
