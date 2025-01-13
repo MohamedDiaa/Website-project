@@ -15,6 +15,17 @@ img {
     object-fit: contain;
 }
 
+/* Custom Components */
+.CustomButton {
+
+    background-color: #235683;
+    color: white;
+    padding: 10px 60px;
+    border-radius: 20px;
+    margin-top: 30px;
+    display: block;
+    width: fit-content;
+}
 
 /* Navigation */
 .Navigation-div {
@@ -97,3 +108,45 @@ img {
     color: white;
 }
 
+/* Section 2 */
+.Section2 {
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 100px 10%;
+}
+
+/* Section 3 */
+
+.Section3 {
+    background-color: #F2F4F5;
+    height: 100vh;
+
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+}
+
+.Section3 .Content {
+
+    margin-top: 100px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 0px 100px;
+
+}
+.Section3 .Content .Left {
+
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+
+.Section3 .Content img {
+    max-width: 40%;
+}
