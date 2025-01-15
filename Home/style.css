@@ -3,9 +3,11 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
 body {
     font-family: sans-serif;
 }
+
 a {
     text-decoration: none;
 }
@@ -30,125 +32,6 @@ img {
     width: fit-content;
 }
 
-/* Navigation */
-.Navigation-div {
-    width: 40%; 
-     margin-left: auto;
-    margin-right: 10px; 
-}
-.Navigation-div ul {
-    display: flex;
-    justify-content:space-around;
-}
-
-.Navigation-div a {
-    display: flex;
-    justify-content:space-around;
-    margin-top: 10px;
-
-}
-.Navigation-div a:hover {
-
-    border: 2px solid white;
-    border-radius: 20px;
-    padding: 5px;
-
-}
-.menuItem {
-    color: white;
-}
-
-.Line {
-    width: 2px;
-    height: 30px;
-    background-color: white;
-}
-.Circle {
-    width: 5px;
-    height: 50px;
-    background-color: white;
-}
-
-
-
-
-/* Language List*/
-.language {
-    position: relative;
-}
-
-.language .submenu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    right: 0;
-    background-color: #235683;
-    list-style-type: none;
-    padding: 10px;
-    margin: 0;
-    border-radius: 5px;
-    width: 100px;
-}
-
-.language:hover .submenu {
-    display: block;
-}
-
-.language .submenu li {
-    margin: 5px 0;
-}
-
-.language .submenu a {
-    color: white;
-    padding: 5px 10px;  
-    display: block;
-}
-
-.language .submenu a:hover {
-    color: #235683;
-    background-color: white;
-}
-
-/* الزر لعرض القائمة في الشاشات الصغيرة */
-.menu-toggle {
-    display: none;
-    font-size: 30px;
-    background: none;
-    border: none;
-    color: black;
-    cursor: pointer;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-}
-
-/* الشاشات الصغيرة */
-@media (max-width: 768px) {
-    .Navigation-div .menu {
-        display: none;
-        flex-direction: column;
-        background-color: #235683;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        width: 200px;
-        padding: 10px;
-    }
-
-    .Navigation-div .menu.active {
-        display: flex;
-    }
-
-    .Navigation-div .menu li {
-        margin: 10px 0;
-    }
-
-    .menu-toggle {
-        display: block;
-    }
-}
-
-
 /* Container */
 .Container {
     display: flex;
@@ -166,7 +49,7 @@ img {
 }
 
 .Logo {
-    object-fit:cover ;
+    object-fit: cover;
 }
 
 .Container h1 {
@@ -174,11 +57,12 @@ img {
     display: block;
 }
 
-.Container p  {
+.Container p {
     color: white;
     display: block;
     margin-top: 10px;
 }
+
 .ContactUsButton {
     background-color: #235683;
     color: white;
@@ -188,6 +72,7 @@ img {
     display: block;
     width: fit-content;
 }
+
 .Container li {
     color: white;
 }
@@ -209,7 +94,7 @@ img {
     background-color: #F2F4F5;
     /* height: 100vh; */
 
-    display: flex; 
+    display: flex;
     flex-direction: column;
     text-align: center;
 }
@@ -217,18 +102,19 @@ img {
 .Section3 .Content {
 
     margin-top: 100px;
-    display: flex; 
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 
     padding: 0px 100px;
 
 }
+
 .Section3 .Content .Left {
 
     display: flex;
     flex-direction: column;
-    justify-content:flex-end;
+    justify-content: flex-end;
 
     margin-right: 30px;
 }
@@ -237,7 +123,7 @@ img {
 
     display: flex;
     flex-direction: column;
-    justify-content:flex-end;
+    justify-content: flex-end;
 
     margin-left: 30px;
 }
@@ -279,11 +165,12 @@ img {
     text-align: center;
     flex-direction: column;
 }
+
 .Section5 .Cell:first-child {
     text-align: left;
 }
 
-.Section5 .Cell:first-child div{ 
+.Section5 .Cell:first-child div {
 
     padding-left: 40px;
 }
@@ -293,6 +180,7 @@ img {
     background-color: #235683;
     color: white;
 }
+
 .Section5 .Cell:first-child:hover {
 
     background-color: white;
@@ -311,4 +199,4 @@ img {
 .Section5 .Cell p {
     margin-top: 10px;
     display: block;
-} 
+}
