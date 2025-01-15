@@ -5,36 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Home/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="Home/navigation.css">
 </head>
-
+<script src="Home/script.js"></script>
 <body>
 
     <div class="Container">
-        <div class="Background">
+        <div class="Background" style="background-image: url('assets/wirkungsvoller-oxidationsschutz.jpg.pagespeed.ce.DDFD9sV5fw.jpg');">
 
             <div class="Navigation-div">
-                <ul style="display: flex; justify-content:space-around;">
-                    <li>
-                        <a class="menuItem" href="#Home">Home Pgae</a>
-                    </li>
-                    <li>
-                        <a class="menuItem" href="#">Company</a>
-                    </li>
-                    <li>
-                        <a class="menuItem" href="#Products">Products</a>
-                    </li>
-                    <li>
-                        <a class="menuItem" href="#Blog">Blog</a>
-                    </li>
-                    <li>
-                        <a class="menuItem" href="#Contact">Contact</a>
-                    </li>
-                    <li>
-                        <a class="menuItem" href="#En">En</a>
+                <button class="menu-toggle">☰</button> 
+                <ul>
+                    <li><a class="menuItem" href="#Home">Home Page</a></li>
+                    <li><a class="menuItem" href="Company/company.html">Company</a></li>
+                    <li><a class="menuItem" href="Product/product.html">Products</a></li>
+                    <li><a class="menuItem" href="#Blog">Blog</a></li>
+                    <li><a class="menuItem" href="#Contact">Contact</a></li>
+                    <li class="language">
+                        <a href="javascript:void(0)">SV <span class="flag-icon flag-icon-se"></span></a>
+                        <ul class="submenu">
+                            <li><a href="javascript:void(0)">EN <span class="flag-icon flag-icon-us"></span></a></li>
+                            <li><a href="javascript:void(0)">DE <span class="flag-icon flag-icon-de"></span></a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
+            
 
             <div style="margin-left:100px;">
                 <img class="Logo" src="assets/footer-logo.png.pagespeed.ce.CCACn3KlTz.png" alt="">
