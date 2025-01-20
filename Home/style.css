@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
 body {
@@ -36,16 +37,26 @@ img {
 .Container {
     display: flex;
     flex-direction: row;
-    overflow: scroll;
+    /* overflow: scroll; */
 
+}
+
+.Container .LogoTextDiv {
+
+    margin-left: 100px;
+    @media(max-width:600px) {
+        padding: 10px;
+        margin-left: 0px;
+    }
+    
 }
 
 .Background {
     background-image: url('assets/wirkungsvoller-oxidationsschutz.jpg.pagespeed.ce.DDFD9sV5fw.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
     width: 100%;
     height: 100vh;
+    background-size:cover;
 }
 
 .Logo {
@@ -105,9 +116,12 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
     padding: 0px 100px;
 
+    @media(max-width:600px) {  
+        flex-direction:column;
+      }
+    
 }
 
 .Section3 .Content .Left {
@@ -117,6 +131,11 @@ img {
     justify-content: flex-end;
 
     margin-right: 30px;
+
+    @media(max-width:600px) {  
+        margin-right: 0px;
+    }
+  
 }
 
 .Section3 .Content .Right {
@@ -129,8 +148,12 @@ img {
 }
 
 .Section3 .Content img {
+    /* */
     max-width: 50%;
-}
+    @media(max-width: 600px) {
+        max-width: 100%;
+    } 
+} 
 
 /* Section 4 */
 
