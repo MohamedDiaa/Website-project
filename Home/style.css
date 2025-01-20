@@ -120,6 +120,7 @@ img {
 
     @media(max-width:600px) {  
         flex-direction:column;
+        padding: 0px 0px;
       }
     
 }
@@ -131,9 +132,10 @@ img {
     justify-content: flex-end;
 
     margin-right: 30px;
-
+    
     @media(max-width:600px) {  
         margin-right: 0px;
+        margin-bottom: 10px;
     }
   
 }
@@ -145,6 +147,12 @@ img {
     justify-content: flex-end;
 
     margin-left: 30px;
+
+    @media(max-width:600px) {  
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+  
 }
 
 .Section3 .Content img {
@@ -179,6 +187,11 @@ img {
     grid-template-columns: repeat(3, 1fr);
     height: 100vh;
     padding: 0px 100px;
+    
+    @media(max-width:600px) {
+        grid-template-columns: 1fr;
+        padding: 0px 20px;
+    }
 }
 
 .Section5 .Cell {
@@ -187,6 +200,10 @@ img {
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    padding-bottom: 10px;
+    @media(max-width:600px) {
+    margin-top: 10px;
+    }
 }
 
 .Section5 .Cell:first-child {
@@ -196,6 +213,11 @@ img {
 .Section5 .Cell:first-child div {
 
     padding-left: 40px;
+
+    @media(max-width:600px) {
+        padding-left: 0px;
+    }
+    
 }
 
 .Section5 .Cell:hover {
