@@ -3,10 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title> 
+    <link rel="stylesheet" href="../Home/navigation.css">
 </head>
-<body>
-    <h1>Product</h1>
-    <p>Here goes the product page</p>
+<body style="background-color: aquamarine;">
+
+    <div class="Navigation-div">
+        <button class="menu-toggle">☰</button> 
+        <ul>
+           <li><a class="menuItem" href="#Home">Home Page</a></li>
+           <li><a class="menuItem" href="Company/company.html">Company</a></li>
+           <li><a class="menuItem" href="Product/product.html">Products</a></li>
+           <li><a class="menuItem" href="#Blog">Blog</a></li>
+           <li><a class="menuItem" href="#Contact">Contact</a></li>
+           <li class="language">
+               <a href="javascript:void(0)" onclick=`translateLang(`sv`)`>SV <span class="flag-icon flag-icon-se"></span></a>
+               <ul class="submenu">
+                   <li><a href="javascript:void(0)" onclick=`translateLang(`en`)`>EN <span class="flag-icon flag-icon-us"></span></a></li>
+                   <li><a href="javascript:void(0)">DE <span class="flag-icon flag-icon-de"></span></a></li>
+               </ul>
+           </li>
+        </ul>
+        </div>
+
+    <h1 id="header1">Product</h1>
+    <p id="body1">Here goes the product page</p>
+
+    <!-- <script src="../Company/company.js"></script> -->
+
+    <script src="../translate.js"></script>
 </body>
 </html>
