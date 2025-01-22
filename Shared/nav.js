@@ -1,6 +1,6 @@
 
-document.getElementsByTagName(`head`)[0].innerHTML += `<link rel="stylesheet" href="../Shared/navigation.css">`
-document.getElementsByTagName(`head`)[0].innerHTML += `<link rel="stylesheet" href="../Shared/shared.css">`
+document.getElementsByTagName(`head`)[0].innerHTML += `<link rel="stylesheet" href="/Shared/navigation.css">`
+document.getElementsByTagName(`head`)[0].innerHTML += `<link rel="stylesheet" href="/Shared/shared.css">`
 
 const body = document.getElementsByTagName("body")[0].innerHTML;
 
