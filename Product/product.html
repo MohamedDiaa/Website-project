@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> 
-    <link rel="stylesheet" href="../Home/navigation.css">
-</head>
-<body style="background-color: aquamarine;">
 
-    <div class="Navigation-div">
-        <button class="menu-toggle">☰</button> 
-        <ul>
-           <li><a class="menuItem" href="#Home">Home Page</a></li>
-           <li><a class="menuItem" href="Company/company.html">Company</a></li>
-           <li><a class="menuItem" href="Product/product.html">Products</a></li>
-           <li><a class="menuItem" href="#Blog">Blog</a></li>
-           <li><a class="menuItem" href="#Contact">Contact</a></li>
-           <li class="language">
-               <a href="javascript:void(0)" onclick=`translateLang(`sv`)`>SV <span class="flag-icon flag-icon-se"></span></a>
-               <ul class="submenu">
-                   <li><a href="javascript:void(0)" onclick=`translateLang(`en`)`>EN <span class="flag-icon flag-icon-us"></span></a></li>
-                   <li><a href="javascript:void(0)">DE <span class="flag-icon flag-icon-de"></span></a></li>
-               </ul>
-           </li>
-        </ul>
+    <link rel="stylesheet" href="product.css">
+    <title>Product</title>
+</head>
+
+<body>
+
+    <div class="Content" style="display: flex; flex-direction: row; justify-content: space-evenly;margin: 100px;">
+        
+        <div>
+            <h1>Antimicrobial coatings</h1>
+            <p>The Corona pandemic with increasing confirmed cases challenges us. New hygiene concepts are needed.
+                Before Covid-19 in mid-March, simple cleaning and disinfection was sufficient. But shortly after
+                wiping, new colonization can occur. 99% of the time, a surface is exposed to viruses and germs until
+                the next disinfection occurs. What if there was a surface that could defend itself against certain
+                viruses around the clock? Our antimicrobial coating inactivates the Sars cov-2 coronavirus 10x
+                faster, providing additional protection against the communicable disease.
+            </p>
+            <a class="CustomButton" href="#ContactUs">Learn more</a>
         </div>
 
-    <h1 id="header1">Product</h1>
-    <p id="body1">Here goes the product page</p>
+        <img src="/assets/AdobeStock_342983353-1-min.webp" alt="" style="object-fit: contain; width:60%;">
+    </div>
 
-    <!-- <script src="../Company/company.js"></script> -->
 
+
+    <!-- js script goes here -->
     <script src="../translate.js"></script>
+    <script src="../Shared/nav.js"></script>
+    </div>
 </body>
+
 </html>
